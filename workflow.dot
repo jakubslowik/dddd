@@ -11,7 +11,7 @@ u0 -> u1[label="()"];
 u1 -> u2[label="()"];
 u2 -> u3[label="()"];
 u3 -> u4[label="()"];
-u4 -> u5[label="()"];
+
 u5 -> u6[label="()"];
 u6 -> u5[label="()"];
 }
