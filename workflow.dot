@@ -7,11 +7,31 @@ u3[label="3"];
 u4[label="4"];
 u5[label="5"];
 u6[label="6"];
+u7[label="7"];
+u8[label="8"];
+u9[label="9"];
+u10[label="10"];
+u11[label="11"];
+u12[label="12"];
 u0 -> u1[label="()"];
 u1 -> u2[label="()"];
 u2 -> u3[label="()"];
 u3 -> u4[label="()"];
-
+u4 -> u5[label="()"];
 u5 -> u6[label="()"];
-u6 -> u5[label="()"];
+
+u1 -> u7[label="()"];
+u2 -> u7[label="()"];
+u7 -> u8[label="()"];
+u8 -> u7[label="()"];
+
+u1 -> u3[label="()"];
+
+u3 -> u9[label="()"];
+u9 -> u5[label="()"];
+u9 -> u10[label="()"];
+u10 -> u9[label="()"];
+u10 -> u11[label="()"];
+u11 -> u10[label="()"];
+
 }
